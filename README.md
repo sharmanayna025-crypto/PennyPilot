@@ -1,4 +1,4 @@
-# 💰 PennyPilot
+#  PennyPilot
 
 ### AI-Powered Personal Finance Management Platform
 
@@ -8,16 +8,16 @@ The application combines a **React + Vite frontend**, **Spring Boot backend**, *
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🔐 Authentication
+###  Authentication
 
 - User registration and login
 - JWT-based authentication
 - Protected dashboard routes
 - Secure frontend-backend communication
 
-### 💳 Transaction Management
+###  Transaction Management
 
 - Add income and expense transactions
 - Edit transactions
@@ -28,7 +28,7 @@ The application combines a **React + Vite frontend**, **Spring Boot backend**, *
 - Prevent duplicate imported transactions
 - Export transactions as CSV
 
-### 📊 Financial Dashboard
+###  Financial Dashboard
 
 - Total income
 - Total expenses
@@ -39,7 +39,7 @@ The application combines a **React + Vite frontend**, **Spring Boot backend**, *
 - Spending visualizations
 - AI-powered spending insights
 
-### 💰 Budget Management
+###  Budget Management
 
 - Create category-based budgets
 - Set spending limits
@@ -47,14 +47,14 @@ The application combines a **React + Vite frontend**, **Spring Boot backend**, *
 - Compare actual spending with budget limits
 - Track budget utilization
 
-### 🎯 Financial Goals
+###  Financial Goals
 
 - Create savings goals
 - Set target amounts
 - Track saved amounts
 - Monitor goal progress
 
-### 📈 Analytics
+###  Analytics
 
 - Income vs. expenses visualization
 - Expense category analysis
@@ -64,7 +64,7 @@ The application combines a **React + Vite frontend**, **Spring Boot backend**, *
 - Financial status overview
 - Spending pattern analysis
 
-### 🤖 AI-Powered Spending Insights
+###  AI-Powered Spending Insights
 
 PennyPilot integrates **Google Gemini** to analyze transaction data and generate personalized financial insights.
 
@@ -78,7 +78,7 @@ The AI-powered system can identify:
 - Budgeting opportunities
 - Personalized financial recommendations
 
-### 📥 CSV Export
+###  CSV Export
 
 Users can export transaction information as a CSV file for:
 
@@ -89,7 +89,7 @@ Users can export transaction information as a CSV file for:
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 ## Frontend
 
@@ -129,4 +129,13 @@ Users can export transaction information as a CSV file for:
 - Postman
 - PostgreSQL / psql
 
+---
+
+#  Author
+
+**Nayna Sharma**
+
+B.Tech Computer Science Engineering
+
+MIT World Peace University
 
