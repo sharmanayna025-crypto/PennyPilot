@@ -40,7 +40,11 @@ public class SecurityConfig {
                 "OPTIONS"
         ));
 
-        configuration.setAllowedHeaders(List.of("*"));
+        configuration.setAllowedHeaders(List.of(
+                "Authorization",
+                "Content-Type",
+                "Accept"
+        ));
 
         configuration.setAllowCredentials(true);
 
@@ -58,24 +62,20 @@ public class SecurityConfig {
 
         http
                 .csrf(csrf -> csrf.disable())
-
                 .cors(Customizer.withDefaults())
 
                 .authorizeHttpRequests(auth -> auth
 
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
 
-                        // Swagger
                         .requestMatchers(
                                 "/swagger-ui/**",
                                 "/swagger-ui.html",
                                 "/v3/api-docs/**"
                         ).permitAll()
 
-                        // Authentication
                         .requestMatchers("/auth/**").permitAll()
 
-                        // PennyPilot APIs
                         .requestMatchers("/transactions/**").permitAll()
                         .requestMatchers("/budgets/**").permitAll()
                         .requestMatchers("/goals/**").permitAll()
