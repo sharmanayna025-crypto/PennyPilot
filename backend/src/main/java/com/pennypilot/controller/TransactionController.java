@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/transactions")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://pennypilot-amber.vercel.app"})
 public class TransactionController {
 
     private final TransactionService transactionService;

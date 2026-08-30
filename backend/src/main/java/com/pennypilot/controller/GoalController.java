@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/goals")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://pennypilot-amber.vercel.app"})
 public class GoalController {
 
     private final GoalService service;
