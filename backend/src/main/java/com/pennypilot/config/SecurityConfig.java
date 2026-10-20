@@ -30,6 +30,7 @@ public class SecurityConfig {
 
         configuration.setAllowedOrigins(Arrays.asList(
                 "http://localhost:5173",
+                "http://localhost:8081",
                 "https://pennypilot-amber.vercel.app"
         ));
 
