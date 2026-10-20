@@ -19,7 +19,7 @@ return ( <section className="min-h-[calc(100vh-80px)] bg-gradient-to-br from-sla
 
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-teal-50 text-teal-700 text-sm font-medium mb-6">
           <ShieldCheck size={16} />
-          Smarter money management
+          Smarter money management · Continuously improved with CI/CD
         </div>
 
         <h1 className="text-5xl md:text-6xl font-bold text-slate-800 leading-tight">
